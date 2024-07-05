@@ -1,8 +1,8 @@
 let maze = [
-  [3, 8, 2, 5],
-  [4, 1, 7, 6],
-  [6, 5, 9, 8],
-  [5, 7, 2, 1]
+  [4, 5, 5, 5],
+  [0, 3, 2, 1],
+  [5, 3, 5, 1],
+  [0, 4, 0, 2 ]
 ];
 let mazeSize = 4;
 let cellSize = 100;
@@ -11,7 +11,7 @@ let playerY = 0;
 let totalSum = 0;
 let visited = []; // Menyimpan sel yang sudah dikunjungi
 let stopMoving = false;
-let kunciJawaban = 38;
+let kunciJawaban = 24;
 
 function setup() {
   createCanvas(mazeSize * cellSize + 20, mazeSize * cellSize + 40);
